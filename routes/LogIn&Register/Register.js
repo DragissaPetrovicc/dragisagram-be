@@ -1,7 +1,7 @@
 const express = require("express");
 const User = require("../../models/UserModel");
 const Verify = require("../../models/VerificationModel");
-const bcrypt = require("bcrypt");
+const bcrypt = require("bcryptjs");
 const { config } = require("dotenv");
 config();
 const nodemailer = require("nodemailer");
