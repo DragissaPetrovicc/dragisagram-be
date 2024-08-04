@@ -1,5 +1,7 @@
 {
   "version": 2,
+  "source": "/feedback/:type",
+  "destination": "/api/feedback/:id",
   "builds": [
     {
       "src": "./index.js",
