@@ -120,7 +120,7 @@ const options = {
       contact: {
         name: "Dragisa",
       },
-      servers: ["https://dragisagram-backend.vercel.app/"],
+      servers: ["https://dragisagram-be.onrender.com/"],
     },
     schemes: ["http", "https"],
   },
